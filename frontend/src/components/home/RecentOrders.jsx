@@ -5,7 +5,7 @@ import OrderList from "./OrderList";
 const RecentOrders = () => {
   return (
     <div className="px-8 mt-6">
-      <div className="bg-[#111111] w-full min-h-[450px] rounded-lg">
+      <div className="bg-[#111111] w-full min-h-[500px] rounded-lg">
         <div className="flex justify-between items-center px-6 py-4">
           <h1 className="text-white text-lg font-semibold tracking-wide">
             Últimos Pedidos
