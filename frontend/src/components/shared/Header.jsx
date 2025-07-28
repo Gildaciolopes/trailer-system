@@ -3,7 +3,7 @@ import { FaSearch, FaBell, FaUserCircle } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-4 px-8 bg-[#1a1a1a]">
+    <header className="flex justify-between items-center py-4 px-8 bg-[#111111]">
       {/* LOGO */}
       <div className="flex items-center gap-2">
         <img src="vite.svg" className="h-8 w-8" alt="logo do trailer" />

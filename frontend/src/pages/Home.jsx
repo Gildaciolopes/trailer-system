@@ -4,6 +4,7 @@ import Greetings from "@/components/home/Greetings";
 import MiniCard from "@/components/home/MiniCard";
 import { BsCashCoin } from "react-icons/bs";
 import { GrInProgress } from "react-icons/gr";
+import RecentOrders from "@/components/home/RecentOrders";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
             footerNum={3.6}
           />
         </div>
+        <RecentOrders />
       </div>
 
       {/* Right Div */}

@@ -6,8 +6,8 @@ import { BiSolidDish } from "react-icons/bi";
 
 const BottomNav = () => {
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-[#1a1a1a] p-2 h-16 flex justify-around">
-      <button className="text-white bg-[#343434] flex items-center justify-center w-[200px] rounded-[20px]">
+    <div className="fixed bottom-0 left-0 right-0 bg-[#111111] p-2 h-16 flex justify-around">
+      <button className="text-white bg-zinc-800 flex items-center justify-center w-[200px] rounded-[20px]">
         <FaHome className="inline mr-2" size={20} />
         <p>Início</p>
       </button>
