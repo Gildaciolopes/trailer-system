@@ -25,7 +25,7 @@ const BottomNav = () => {
       </button>
 
       <button className="bg-[#F6B100] text-white rounded-full p-3 items-center absolute bottom-6">
-        <BiSolidDish size={30} />
+        <BiSolidDish size={45} />
       </button>
     </div>
   );
