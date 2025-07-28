@@ -19,7 +19,7 @@ const PopularDishes = () => {
             return (
               <div
                 key={dish.id}
-                className="flex items-center gap-4 bg-[#1f1f1f] rounded-[15px] px-6 py-4 mt-4 mx-6"
+                className="flex items-center gap-4 bg-[#1f1f1f] rounded-[15px] px-6 py-4 mt-4 mx-6 transition-all duration-300 hover:scale-103 hover:cursor-pointer hover:bg-zinc-950"
               >
                 <h1 className="text-white font-bold text-xl mr-4">
                   {dish.id < 10 ? `0${dish.id}` : dish.id}
