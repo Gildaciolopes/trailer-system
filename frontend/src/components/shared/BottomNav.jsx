@@ -3,19 +3,31 @@ import { FaHome } from "react-icons/fa";
 import { MdOutlineReorder, MdTableBar } from "react-icons/md";
 import { CiCircleMore } from "react-icons/ci";
 import { BiSolidDish } from "react-icons/bi";
+import { useNavigate } from "react-router-dom";
 
 const BottomNav = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-[#111111] p-2 h-16 flex justify-around">
-      <button className="text-white bg-zinc-800 flex items-center justify-center w-[200px] rounded-[20px]">
+      <button
+        onClick={() => navigate("/")}
+        className="text-white bg-zinc-800 flex items-center justify-center w-[200px] rounded-[20px]"
+      >
         <FaHome className="inline mr-2" size={20} />
         <p>Início</p>
       </button>
-      <button className="text-white flex items-center justify-center w-[200px] rounded-[20px]">
+      <button
+        onClick={() => navigate("/orders")}
+        className="text-white flex items-center justify-center w-[200px] rounded-[20px]"
+      >
         <MdOutlineReorder className="inline mr-2" size={20} />
         <p>Pedidos</p>
       </button>
-      <button className="text-white flex items-center justify-center w-[200px] rounded-[20px]">
+      <button
+        onClick={() => navigate("/tables")}
+        className="text-white flex items-center justify-center w-[200px] rounded-[20px]"
+      >
         <MdTableBar className="inline mr-2" size={20} />
         <p>Mesas</p>
       </button>
